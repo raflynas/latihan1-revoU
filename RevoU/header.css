@@ -1,0 +1,20 @@
+.container {
+    border: 2px solid black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container > div {
+    padding: 10px;
+    text-align: center;
+    font-size: 14sp;
+    color: black;
+    border: 1px solid;
+    background-color: white;
+   
+
+}
+
+.logo {
+    margin-right: auto;
+}

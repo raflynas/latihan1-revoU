@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="header.css">
+        <style>
+            .content {
+                flex-direction: row;
+                display: flex;
+            }
+            .content > div {
+                display: flex; 
+                flex: 1; 
+                align-content: center; 
+                justify-content: center
+            }
+            .table_person {
+                border: 1px solid black ;
+                
+                text-align:center;
+            }
+            th, td {
+                border: 1px solid;
+                padding: 15px;
+                text-align:center;
+            }
+            footer > p{
+                text-align: end;
+                align-self: auto;
+            }
+            th {
+                background-color: rgb(223, 220, 220);
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="container">
+            <img
+            scr="https://i.pinimg.com/564x/eb/5e/65/eb5e6534206902015612708e61449ec8.jpg" class="logo" width="40" height="40" />
+
+            <div class="home">Home</div>
+            <div class="search">Search</div>
+            <div class="logout">Logout</div>
+            </nav>
+        <header>
+            <h1>Form Belajar</h1>
+            <p>Ini adalah website latihan pertama</p>
+            <br>
+        </header>
+
+        <main class="content">
+            <div>
+                
+            </div>
+            <div>
+                <table class="table_person">
+                    <tr>
+                        <th>Nama</th>
+                        <th>Tanggal Lahir</th>
+                        <th>Jenis Kelamin</th>
+                        <th>Pesan</th>
+                        <th>Profile</th>
+                        <th>Delete</th>
+                    </tr>
+                    <tr>
+                        <td>Rafly</td>
+                        <td>January 30, 1999</td>
+                        <td>Laki-laki</td>
+                        <td>Belajar Javascript</td>
+                        <td><a a href="https://www.youtube.com/" target="_blank">Klik disni</a></td>
+                        <td><img src="https://i.pinimg.com/564x/eb/5e/65/eb5e6534206902015612708e61449ec8.jpg" alt="delete" width="20" height="20" /></td>
+                    </tr>
+                    <tr>
+                        <td>David</td>
+                        <td>September 29, 1992</td>
+                        <td>Laki-laki</td>
+                        <td>Hello World</td>
+                        <td><a a href="https://www.youtube.com/" target="_blank">Klik disni</a></td>
+                        <td><img src="https://i.pinimg.com/564x/eb/5e/65/eb5e6534206902015612708e61449ec8.jpg" class="delete" alt="delete" width="20" height="20" /></td>
+                    </tr>
+                    <tr>
+                        <td>Fikri</td>
+                        <td>January 2, 1990</td>
+                        <td>Laki-laki</td>
+                        <td>Sepuh</td>
+                        <td><a a href="https://www.youtube.com/" target="_blank">Klik disni </a></td>
+                        <td><img src="https://i.pinimg.com/564x/eb/5e/65/eb5e6534206902015612708e61449ec8.jpg" alt="delete" width="20" height="20" /></td>
+                    </tr>
+                    <tr>
+                        <td>Rea</td>
+                        <td>May 9, 1999</td>
+                        <td>Perempuan</td>
+                        <td>Terlalu brutal</td>
+                        <td><a a href="https://www.youtube.com/" target="_blank">Klik disni</a></td>
+                        <td><img src="https://i.pinimg.com/564x/eb/5e/65/eb5e6534206902015612708e61449ec8.jpg" alt="delete" width="20" height="20" /></td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+    </body>
+    <footer>
+        <p>Created By Lumiere2024</p>
+    </footer>
+</html>
